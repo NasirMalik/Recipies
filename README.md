@@ -6,12 +6,7 @@ ObjectMapper+
 SDWebImage
 
 PROBLEM:
-The goal of this test is to assert (to some degree) your coding skills.
 
-Feel free to add at any point any particular technique or algorithm that you think might enrich the overall quality of the end result.
-You're allowed and encouraged to use third party libraries, as long as you put them together yourself without relying on a framework to do it for you.
-An effective developer knows what to build and what to reuse, but also how his tools work. Be prepared to answer some questions about those packages.
-There is no time limit (you shouldn’t spend a week, though) - but please honestly tell us how long you needed.
 Requirements
 
 •	You can use any third-party library you find useful ✔
@@ -31,12 +26,13 @@ Build an app in which:
 •	You MUST implement a fluid layout, that adapts to any device dimensions and orientation. ✔
 
 SOLUTION:
-Apart from all of above requirements
+Apart from all of above requirements, solution covers following
 
-✔       Separate Network, DataBase Caching, Model and Controller layers to make project more scaleable
+✔       Separate Network, DataBase Caching, Model and Controller layers to make project more scaleable, 
+✔       Reduced coupling, small file sizes, simplicity make it effective for new coders to extend it.
 ✔       Realm is used to handle Models and DataBase Object at same level and handle high level of concurrency without much hassle in long running secure operations
 ✔       Image caching is handed via SDWebImage
-✔       Login Form handles validation closely UI level via extension and feels reactive
+✔       Login Form handles validation closely at UI level via extension and feels reactive
 ✔       Physical groups are grouped to depict shape of real big project
 ✔       Test Cases covers validation, data fetching and tableviews. 
 
