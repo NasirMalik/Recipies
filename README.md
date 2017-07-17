@@ -1,5 +1,9 @@
 # Recipies
-Realm+Alamofire+ObjectMapper
+
+Realm+
+Alamofire+
+ObjectMapper+
+SDWebImage
 
 PROBLEM:
 The goal of this test is to assert (to some degree) your coding skills.
@@ -34,7 +38,7 @@ Apart from all of above requirements
 ✔       Image caching is handed via SDWebImage
 ✔       Login Form handles validation closely UI level via extension and feels reactive
 ✔       Physical groups are grouped to depict shape of real big project
-✔       Test Cases still needs to be worked on. 
+✔       Test Cases covers validation, data fetching and tableviews. 
 
 
 INSTALLATION:
