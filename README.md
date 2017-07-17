@@ -45,6 +45,11 @@ Once downloaded please open terminal and run following command
 $cd: pathToCodeChallenge
 $ pod install
 
+ENHANCEMENT:
+
+From here we can use Moya between Alamofire and ObjectMapper to make your network layer more clearner. 
+
+
 If there are any questions please let me know.
 
 
